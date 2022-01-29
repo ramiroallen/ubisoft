@@ -1,0 +1,27 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ubisoft/v16
+/.vs
+/Feedback/.vs/Feedback
+/Feedback/Feedback.API/bin/Debug/netcoreapp3.1
+/Feedback/Feedback.API/obj
+/Feedback/Feedback.DomainServices/bin/Debug/netcoreapp3.1
+/Feedback/Feedback.DomainServices/obj/Debug/netcoreapp3.1
+/Feedback/Feedback.DomainServices/obj
+/Feedback/Feedback.DomainServices.Core/bin/Debug/netcoreapp3.1
+/Feedback/Feedback.DomainServices.Core/obj
+/Feedback/Feedback.DomainServices.Infrastructure/bin/Debug/netcoreapp3.1
+/Feedback/Feedback.DomainServices.Core/CommandResponse.cs
+/Feedback/Feedback.DomainServices.Infrastructure/obj
+/Feedback/Feedback.Entities/bin/Debug/netcoreapp3.1
+/Feedback/Feedback.Entities/obj
+/Feedback/Feedback.Models/bin/Debug/netcoreapp3.1
+/Feedback/Feedback.Models/obj
+/Feedback/Feedback.Repository/bin/Debug/netcoreapp3.1
+/Feedback/Feedback.Repository/obj
+/Feedback/Feedback.Repository.Core/bin/Debug/netcoreapp3.1
+/Feedback/Feedback.Repository.Core/obj
+/Feedback/Feedback.Repository.Infrastructure/bin/Debug/netcoreapp3.1
+/Feedback/Feedback.Repository.Infrastructure/obj

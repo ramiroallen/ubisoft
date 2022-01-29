@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Feedback.DomainServices.Core\Feedback.DomainServices.Core.csproj" />
+    <ProjectReference Include="..\Feedback.Entities\Feedback.Entities.csproj" />
+    <ProjectReference Include="..\Feedback.Models\Feedback.Models.csproj" />
+    <ProjectReference Include="..\Feedback.Repository.Core\Feedback.Repository.Core.csproj" />
+  </ItemGroup>
+
+</Project>
