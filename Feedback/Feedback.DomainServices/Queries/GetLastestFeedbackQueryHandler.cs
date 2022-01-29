@@ -20,6 +20,7 @@ namespace Feedback.DomainServices.Queries
         public async Task<IEnumerable<Entities.UserFeedback>> HandleAsync(GetLatestFeedbackQuery query)
         {
             var data = await _repository.FindAll()
+                .Where(f=>f.UserId == query.UserId)
                 .OrderByDescending(f => f.CreatedDate).Take(query.LastN)
                 .ToListAsync();
             return data.Select(f => new Feedback.Entities.UserFeedback
@@ -27,7 +28,8 @@ namespace Feedback.DomainServices.Queries
                 Comments = f.Comments,
                 CreatedDate = f.CreatedDate,
                 Id = f.Id,
-                Rate = f.Rate
+                Rate = f.Rate,
+                SessionId = f.SessionId
             });
         }
     }

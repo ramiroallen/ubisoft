@@ -25,3 +25,5 @@
 /Feedback/Feedback.Repository.Core/obj
 /Feedback/Feedback.Repository.Infrastructure/bin/Debug/netcoreapp3.1
 /Feedback/Feedback.Repository.Infrastructure/obj
+/Feedback/Feedback.API.Authentication/bin/Debug/netcoreapp3.1
+/Feedback/Feedback.API.Authentication/obj

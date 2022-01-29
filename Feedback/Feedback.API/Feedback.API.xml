@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Feedback.API</name>
+    </assembly>
+    <members>
+        <member name="T:Feedback.API.Controllers.FeedbackController">
+            <summary>
+            Endpoint to save and retrieve user feedbacks
+            </summary>
+        </member>
+        <member name="M:Feedback.API.Controllers.FeedbackController.#ctor(Feedback.DomainServices.Core.IDispatcher,Feedback.DomainServices.Core.ICommandBus)">
+            <summary>
+            
+            </summary>
+            <param name="dispatcher"></param>
+            <param name="commandBus"></param>
+        </member>
+        <member name="M:Feedback.API.Controllers.FeedbackController.GetLatestUserFeedback">
+            <summary>
+            Retrieve the last 15 feedbacks
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Feedback.API.Controllers.FeedbackController.SaveFeedback(Feedback.API.Models.UserFeedback)">
+            <summary>
+            Save feedback
+            </summary>
+            <param name="feedback"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Feedback.API.Models.UserFeedback">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Feedback.API.Models.UserFeedback.FeedbackId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Feedback.API.Models.UserFeedback.SessionId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Feedback.API.Models.UserFeedback.Rate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Feedback.API.Models.UserFeedback.Comments">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Feedback.API.Models.UserFeedback.CreatedDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Feedback.API.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Feedback.API.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Feedback.API.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Feedback.API.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Feedback.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Feedback.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

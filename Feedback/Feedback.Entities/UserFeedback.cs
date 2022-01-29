@@ -8,5 +8,6 @@ namespace Feedback.Entities
         public decimal Rate { get; set; }
         public string Comments { get; set; }
         public DateTime CreatedDate { get; set; }
+        public Guid SessionId { get; set; }
     }
 }

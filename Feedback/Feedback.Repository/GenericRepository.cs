@@ -50,14 +50,14 @@ namespace Feedback.Repository
 
         public IQueryable<T> Find(Expression<Func<T, bool>> predicate, string[] includeArgs)
         {
-            var query = _dbContext.Set<T>();
+            var query = _dbContext.Set<T>().AsQueryable<T>();
             if (predicate != null)
-                query = (DbSet<T>)query.Where(predicate);
+                query = query.Where(predicate);
 
             if (includeArgs != null && includeArgs.Length != 0)
             {
                 foreach (var navProperty in includeArgs)
-                    query = (DbSet<T>)query.Include(navProperty);
+                    query = query.Include(navProperty);
             }
             return query;
         }

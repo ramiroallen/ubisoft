@@ -24,8 +24,7 @@ namespace Feedback.Repository.Infrastructure.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-                //Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Ramiro.allen\\source\\repos\\Feedback\\Feedback.API\\Data\\Feedback.mdf;Integrated Security=True
-                optionsBuilder.UseSqlServer("Name=Feedback");
+                optionsBuilder.UseSqlServer("Name=FeedbackDB");
             }
         }
 

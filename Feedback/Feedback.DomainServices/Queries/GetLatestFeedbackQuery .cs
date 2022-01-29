@@ -8,5 +8,6 @@ namespace Feedback.DomainServices.Queries
     public class GetLatestFeedbackQuery : IQuery
     {
         public int LastN { get; set; }
+        public Guid UserId { get; set; }
     }
 }
