@@ -14,6 +14,9 @@ namespace Feedback.API.Authentication
     {
     }
 
+    /// <summary>
+    /// This class its use to by the aspnet core pipeline to authenticate the incoming calls
+    /// </summary>
     public class CustomAuthenticationHandler : AuthenticationHandler<BasicAuthenticationOptions>
     {
         private IRolesManager _rolesManager;
