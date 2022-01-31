@@ -40,7 +40,7 @@ namespace Feedback.DomainServices.Commands
                 return new CommandResponse
                 {
                     Success = false,
-                    Message = $"The rate: {command.Rate} is invalid, please provide a value between 1-100"
+                    Message = $"The rate: {command.Rate} is invalid, please provide a value between 1-5"
                 };
             }
             if (_repository.Find(f => f.SessionId == command.SessionId && f.UserId == command.UserId).Any())
