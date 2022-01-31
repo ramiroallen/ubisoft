@@ -53,3 +53,17 @@
 /Feedback/Tests/Feedback.Repository.Infrastructure.Tests/obj
 /Feedback/Tests/Feedback.Repository.Tests/bin/Debug/netcoreapp3.1
 /Feedback/Tests/Feedback.Repository.Tests/obj
+/Feedback/Domain Services/Feedback.DomainServices/bin/Release/netcoreapp3.1
+/Feedback/Domain Services/Feedback.DomainServices.Core/bin/Release/netcoreapp3.1
+/Feedback/Gateway/Feedback.API/bin/Release/netcoreapp3.1
+/Feedback/Gateway/Feedback.API.Authentication/bin/Release/netcoreapp3.1
+/Feedback/Infrastructure/Feedback.DomainServices.Infrastructure/bin/Release/netcoreapp3.1
+/Feedback/Gateway/Feedback.API/Properties/ServiceDependencies/FeedbackDemoAPI - Web Deploy
+/Feedback/Gateway/Feedback.API/Properties/PublishProfiles
+/Feedback/Infrastructure/Feedback.Repository.Infrastructure/bin/Release/netcoreapp3.1
+/Feedback/Repository/Feedback.Repository.Core/bin/Release/netcoreapp3.1
+/Feedback/Repository/Feedback.Repository/bin/Release/netcoreapp3.1
+/Feedback/Repository/Feedback.Models/bin/Release/netcoreapp3.1
+/Feedback/Tests/Feedback.Repository.Tests/bin/Release/netcoreapp3.1
+/Feedback/Domain Services/Feedback.Entities/bin/Release/netcoreapp3.1
+/Feedback/Feedback.DomainServices.Infrastructure.Tests/bin/Release/netcoreapp3.1

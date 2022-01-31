@@ -11,7 +11,8 @@
   - [Repository](#repository)
   - [Domains Services](#domains-services)
   - [Authentication](#standards)
-  - [Swagger](#monitoring)
+  - [Swagger](#swagger)
+  - [Logging](#logging)
 
 ## Getting Started
 
@@ -42,7 +43,9 @@ To access data this repos uses the repository pattern which is a design pattern 
 ## Domains Services
 
 In more traditional architectures the same data model is used to both query and update the database. In simple scenarios like CRUD operations, it works very well but in more complex cases this approach brings several disadvantages. The result can be very complex and a big model that does way too much and objects mapping can become very complicated.
-I'm using CQRS design pattern. Command Query Responsibility Segregation (CQRS) is an architectural pattern that separates reading and writing into two different models. Unlike many patterns that answer to general business or engineering problems, the CQRS pattern is an alternative to another pattern, CRUD.
+This repo is using CQRS design pattern. Command Query Responsibility Segregation (CQRS) is an architectural pattern that separates reading and writing into two different models. Unlike many patterns that answer to general business or engineering problems, the CQRS pattern is an alternative to another pattern, CRUD.
+
+In a more complex scenario this folder would contain the Domain logic and Services that might interact with other concepts and serves as bridge for our domain.
 
 
 ## Authentication
@@ -51,4 +54,10 @@ The API uses a `CustomAuthenticationHandler` that looks for the header `Ubi-User
 To consume the query endpoints the caller needs to be in the Admin role. This is hardcoded right now in the class IRoleManager,
 The only user with Admin role is `BAF003C2-8CB4-4AE8-8A55-198660830E80`
 
+## Swagger
 
+This repo uses swagger to describe the exposed endpoints. To authenticate the call just click on the Authorize button in the top right.
+
+## Logging
+
+This repo uses Serilog to log unhandled errors.
