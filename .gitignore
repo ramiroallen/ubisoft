@@ -27,3 +27,29 @@
 /Feedback/Feedback.Repository.Infrastructure/obj
 /Feedback/Feedback.API.Authentication/bin/Debug/netcoreapp3.1
 /Feedback/Feedback.API.Authentication/obj
+/Feedback/Domain Services/Feedback.DomainServices/bin/Debug/netcoreapp3.1
+/Feedback/Domain Services/Feedback.DomainServices/obj
+/Feedback/Domain Services/Feedback.DomainServices.Core/bin/Debug/netcoreapp3.1
+/Feedback/Domain Services/Feedback.DomainServices.Core/obj
+/Feedback/Domain Services/Feedback.Entities/bin/Debug/netcoreapp3.1
+/Feedback/Domain Services/Feedback.Entities/obj
+/Feedback/Feedback.DomainServices.Infrastructure.Tests/bin/Debug/netcoreapp3.1
+/Feedback/Feedback.DomainServices.Infrastructure.Tests/obj
+/Feedback/Gateway/Feedback.API/bin/Debug/netcoreapp3.1
+/Feedback/Gateway/Feedback.API/obj
+/Feedback/Gateway/Feedback.API.Authentication/bin/Debug/netcoreapp3.1
+/Feedback/Gateway/Feedback.API.Authentication/obj
+/Feedback/Infrastructure/Feedback.DomainServices.Infrastructure/bin/Debug/netcoreapp3.1
+/Feedback/Infrastructure/Feedback.DomainServices.Infrastructure/obj
+/Feedback/Infrastructure/Feedback.Repository.Infrastructure/bin/Debug/netcoreapp3.1
+/Feedback/Infrastructure/Feedback.Repository.Infrastructure/obj
+/Feedback/Repository/Feedback.Models/bin/Debug/netcoreapp3.1
+/Feedback/Repository/Feedback.Models/obj
+/Feedback/Repository/Feedback.Repository/bin/Debug/netcoreapp3.1
+/Feedback/Repository/Feedback.Repository/obj
+/Feedback/Repository/Feedback.Repository.Core/bin/Debug/netcoreapp3.1
+/Feedback/Repository/Feedback.Repository.Core/obj
+/Feedback/Tests/Feedback.Repository.Infrastructure.Tests/bin/Debug/netcoreapp3.1
+/Feedback/Tests/Feedback.Repository.Infrastructure.Tests/obj
+/Feedback/Tests/Feedback.Repository.Tests/bin/Debug/netcoreapp3.1
+/Feedback/Tests/Feedback.Repository.Tests/obj

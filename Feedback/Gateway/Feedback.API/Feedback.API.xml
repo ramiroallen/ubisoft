@@ -4,54 +4,21 @@
         <name>Feedback.API</name>
     </assembly>
     <members>
-        <member name="T:Feedback.API.Config.IConfig">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:Feedback.API.Config.IConfig.TopFeedbacks">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="T:Feedback.API.Config.Config">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:Feedback.API.Config.Config.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
-            <summary>
-            
-            </summary>
-            <param name="configuration"></param>
-        </member>
-        <member name="P:Feedback.API.Config.Config.TopFeedbacks">
-            <summary>
-            
-            </summary>
-        </member>
         <member name="T:Feedback.API.Controllers.FeedbackController">
             <summary>
             Endpoint to save and retrieve user feedbacks
             </summary>
         </member>
-        <member name="M:Feedback.API.Controllers.FeedbackController.#ctor(Feedback.DomainServices.Core.IDispatcher,Feedback.DomainServices.Core.ICommandBus,Feedback.API.Config.IConfig)">
+        <member name="M:Feedback.API.Controllers.FeedbackController.#ctor(Feedback.DomainServices.Core.IDispatcher,Feedback.DomainServices.Core.ICommandBus)">
             <summary>
             
             </summary>
             <param name="dispatcher"></param>
             <param name="commandBus"></param>
-            <param name="config"></param>
         </member>
         <member name="M:Feedback.API.Controllers.FeedbackController.GetLatestUserFeedback">
             <summary>
             Retrieve the last 15 feedbacks
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:Feedback.API.Controllers.FeedbackController.GetUserFeedbackByRate(System.Int32)">
-            <summary>
-            Filter user feedbacks by Rate
             </summary>
             <returns></returns>
         </member>
@@ -63,11 +30,6 @@
             <returns></returns>
         </member>
         <member name="T:Feedback.API.Models.UserFeedback">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="P:Feedback.API.Models.UserFeedback.UserId">
             <summary>
             
             </summary>
@@ -119,17 +81,6 @@
             </summary>
             <param name="args"></param>
             <returns></returns>
-        </member>
-        <member name="T:Feedback.API.Startup">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:Feedback.API.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
-            <summary>
-            
-            </summary>
-            <param name="configuration"></param>
         </member>
         <member name="P:Feedback.API.Startup.Configuration">
             <summary>
